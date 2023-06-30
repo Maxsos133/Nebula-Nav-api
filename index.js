@@ -2,14 +2,19 @@ const express = require(`express`)
 const cors = require(`cors`)
 const PORT = process.env.PORT || 3001
 const db = require(`./db`)
+const path = require(`path`)
 const AppRouter = require(`./routes/AppRouter`)
 const cookieParser = require(`cookie-parser`)
 const logger = require(`morgan`)
 const session = require(`express-session`)
 
+
+
 require(`dotenv`).config()
 
 require(`./db/index`)
+
+
 
 const app = express()
 
@@ -27,11 +32,29 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use(express.static(path.join(__dirname, `public`)))
+
+
+
+app.use(session({
+    secret: process.env.SECRET,
+    resave: false,
+    saveUninitialized: true
+}))
+
+
 app.get('/', (req, res) => {
     res.send('server working')
-})
+  })
+
 
 app.use(`/`, AppRouter)
+
+
+
+
+
+
 
 app.listen(PORT, () => {
     console.log(`Express server listening on port ${PORT}`)
