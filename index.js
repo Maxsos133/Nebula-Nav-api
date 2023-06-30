@@ -15,7 +15,6 @@ require(`dotenv`).config()
 require(`./db/index`)
 
 
-
 const app = express()
 
 
@@ -49,6 +48,7 @@ app.get('/', (req, res) => {
 
 
 app.use(`/`, AppRouter)
+
 
 
 
