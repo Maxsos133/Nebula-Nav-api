@@ -6,7 +6,6 @@ const planetSchema = new Schema(
     mass: { type: String, required: true},
     diameter: { type: String, required: true},
     dist_from_sun: { type: String, required: true},
-    location: { type: String, required: true},
     terrain: { type: String, required: true},
     has_water: { type: String, required: true},
     has_aliens: { type: String, required: true},
@@ -14,6 +13,7 @@ const planetSchema = new Schema(
     gravity: { type: String, required: true},
     velocity: { type: String, required: true},
     moons: { type: Array, required: false},
+    mapData: { type: Object, required: false}
   },
   { timestamps: true }
 )
