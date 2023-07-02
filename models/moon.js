@@ -11,7 +11,7 @@ const moonSchema = new Schema (
         surface_temperature: { type: String, required: true},
         gravity: { type: String, required: true},
         velocity: { type: String, required: true},
-      //  home_planet: {type: Schema.Types.ObjectId, ref: 'Planet', required: true },
+        home_planet: {type: String, required: true },
     },
     { timestamps: true }
 )
