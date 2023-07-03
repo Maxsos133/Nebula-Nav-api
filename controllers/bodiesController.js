@@ -1,8 +1,8 @@
-const { Bodies } = require (`../models`)
+const { Body } = require (`../models`)
 const bodySchema = require (`../models/body`)
 
 const getBodies= async (req, res) => {
-const body = await Bodies.find({})
+const body = await Body.find({})
 res.json(body)
 }
 
