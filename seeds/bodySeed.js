@@ -1,15 +1,15 @@
 const db = require(`../db`)
 const { Body } = require(`../models`)
-db.on(`error`, console.error.bind(console,`MogoDB connction error`))
+db.on(`error`, console.error.bind(console,`MongoDB connction error`))
 
 const main = async () => {
     const bodies = [
         {
             name : `The Sun`,
-            mass :`1.9891 × 10^30 kg`,
+            mass :`1.9891 x 10^30 kg`,
             dist_from_sun :`0 m`,
             terrain :`Gas and Plasma`,
-            surface_Temperature :`5,600°C)`,
+            surface_Temperature :`5,600°C`,
             gravity :`274 m/s²`
 
         }
