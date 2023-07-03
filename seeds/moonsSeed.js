@@ -321,7 +321,7 @@ const main = async () => {
 
             {
               "name": "Kerberos",
-              "mass": "1.65×10^16 kg",
+              "mass": "1.65 x 10^16 kg",
               "diameter": "34 km",
               "dist_from_planet": "57,783 km",
               "has_water": "Yes",
@@ -354,6 +354,6 @@ const main = async () => {
 
 const run =  async() =>{
     await main()
-    db.close
+    db.close()
 }
 run()
