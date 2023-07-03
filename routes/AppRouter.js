@@ -6,6 +6,6 @@ const BodyRouter = require(`./bodiesRouter.js`)
 
 Router.use(`/planets`, PlanetRouter)
 Router.use(`/moons` , MoonRouter)
-Routeer.use(`/boides`,BodyRouter )
+Routeer.use(`/bodiees`,BodyRouter )
 
 module.exports = Router
