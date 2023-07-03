@@ -6,26 +6,6 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 const main = async () => {
   const planets = [
     {
-      name: `Sun`,
-      mass: `1.989 x 10^30 kg`,
-      diameter: `1392700 km`,
-      dist_from_sun: `0`,
-      terrain: `gas`,
-      surface: `burning plasma hydrogen`,
-      surface_temperature: `5600°C`,
-      has_water: `no`,
-      has_aliens: `possibly`,
-      gravity: `274 m/s²`,
-      velocity: `720000 km/h`,
-      moons: [],
-      mapData: {
-        coordinates: {
-          longitude: `0`,
-          latitude: `0`,
-        },
-      },
-    },
-    {
       name: `Mercury`,
       mass: `3.30 x 10^23 kg`,
       diameter: `4879.4 km`,
