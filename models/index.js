@@ -4,7 +4,8 @@ const MoonSchema = require('./moon')
 
 const Planet = model('Planet', PlanetSchema)
 const Moon = model('Moon', MoonSchema)
+const Body = model(`Body`, BodySchema)
 
 module.exports = {
-    Planet, Moon
+    Planet, Moon, Body
 }
