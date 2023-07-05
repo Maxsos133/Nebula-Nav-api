@@ -10,10 +10,15 @@ res.json(body)
 
 
 const getBodiesByName = async (req, res) => {
+    try {
     const { name } = req.params
     const body = await Body.findOne({name:name})
-    if(!body) throw Error(` Body not found! `)
+    if(!body) throw Error(` Celestial body not found! `)
     res.json(body)
+    } catch (e) {
+        console.log(e)
+        res.send("Celestial body not found")
+    }
 }
 
 
