@@ -42,7 +42,7 @@ app.use(session({
 
 
 app.get('/', (req, res) => {
-    res.send('/planets, /moons')
+    res.send('/planets, /moons, /bodies, /comments')
   })
 
 

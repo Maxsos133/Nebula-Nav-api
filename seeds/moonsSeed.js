@@ -16,7 +16,8 @@ const main = async () => {
               surface_temperature: "120°C daytime to -130°C night",
               gravity: "1.569 m/s² ",
               velocity: "3,960 km/h",
-              home_planet: "Earth"
+              home_planet: "Earth",
+              image: `https://imgur.com/EEiAKvx`
             },
 
             {
@@ -28,7 +29,8 @@ const main = async () => {
               surface_temperature: "-4°C",
               gravity: ".0057 m/s²",
               velocity: "7,668 km/h",
-              home_planet: "Mars"
+              home_planet: "Mars",
+              image: `https://imgur.com/OWsZX9m`
             },
 
             {
@@ -40,7 +42,8 @@ const main = async () => {
               surface_temperature: "-40°C",
               gravity: "0.003 m/s²",
               velocity: " 4,860 km/h",
-              home_planet: "Mars"
+              home_planet: "Mars",
+              image: `https://imgur.com/CsRGZwA`
             },
 
             {
@@ -52,7 +55,8 @@ const main = async () => {
               surface_temperature: "-162°C",
               gravity: "1.314 m/s²",
               velocity: "49,464 km/h",
-              home_planet: "Jupiter"
+              home_planet: "Jupiter",
+              image: `https://imgur.com/YmA9Xse`
             },
 
             {
@@ -64,7 +68,8 @@ const main = async () => {
               surface_temperature: "-171°C",
               gravity: "1.431 m/s²",
               velocity: "39,168 km/h",
-              home_planet: "Jupiter"
+              home_planet: "Jupiter",
+              image: `https://imgur.com/bL5PlE6`
             },
 
             {
@@ -76,7 +81,8 @@ const main = async () => {
               surface_temperature: "-143°C",
               gravity: "1.235 m/s²",
               velocity: "29,520 km/h",
-              home_planet: "Jupiter"
+              home_planet: "Jupiter",
+              image: `https://imgur.com/6FcrADk`
             },
 
             {
@@ -88,7 +94,8 @@ const main = async () => {
               surface_temperature: "-178°C",
               gravity: "1.353 m/s²",
               velocity: "20,052 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/9r8uePM`
             },
 
             {
@@ -100,7 +107,8 @@ const main = async () => {
               surface_temperature: "-177°C",
               gravity: "2.255 m/s²",
               velocity: "30,528 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/qg7OW3b`
             },
 
             {
@@ -112,7 +120,8 @@ const main = async () => {
               surface_temperature: "-183°C",
               gravity: "1.421 m/s²",
               velocity: "40,860 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/4b1SvGV`
             },
 
             {
@@ -124,7 +133,8 @@ const main = async () => {
               surface_temperature: "-187°C",
               gravity: "2.275 m/s²",
               velocity: "36,108 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/pcoV34K`
             },
 
             {
@@ -136,7 +146,8 @@ const main = async () => {
               surface_temperature: "-201°C",
               gravity: "1.108  m/s²",
               velocity: "45,360 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/9WtWZtb`
             },
 
             {
@@ -148,7 +159,8 @@ const main = async () => {
               surface_temperature: "-196°C",
               gravity: "2.186  m/s²",
               velocity: "11,736 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/I0tnnRU`
             },
 
             {
@@ -160,7 +172,8 @@ const main = async () => {
               surface_temperature: "-199°C",
               gravity: "0.617 m/s²",
               velocity: "51,408 km/h",
-              home_planet: "Saturn"
+              home_planet: "Saturn",
+              image: `https://imgur.com/KXElt5X`
             },
 
             {
@@ -172,7 +185,8 @@ const main = async () => {
               surface_temperature: "-187°C",
               gravity: "0.774 m/s²",
               velocity: "24,156 km/h",
-              home_planet: "Uranus"
+              home_planet: "Uranus",
+              image: `https://imgur.com/KrTso26`
             },
 
             {
@@ -184,7 +198,8 @@ const main = async () => {
               surface_temperature: "-212°C",
               gravity: "2.618 m/s²",
               velocity: "19,836 km/h",
-              home_planet: "Uranus"
+              home_planet: "Uranus",
+              image: `https://imgur.com/8oewyt7`
             },
 
             {
@@ -196,7 +211,8 @@ const main = async () => {
               surface_temperature: "-213°C",
               gravity: "2.314 m/s²",
               velocity: "16,812 km/h",
-              home_planet: "Uranus"
+              home_planet: "Uranus",
+              image: `https://imgur.com/TXd2HO9`
             },
 
             {
@@ -208,7 +224,8 @@ const main = async () => {
               surface_temperature: "-215°C",
               gravity: "3.716 m/s²",
               velocity: "13,104 km/h",
-              home_planet: "Uranus"
+              home_planet: "Uranus",
+              image: `https://imgur.com/undefined`
             },
 
             {
@@ -220,7 +237,8 @@ const main = async () => {
               surface_temperature: "-215°C",
               gravity: "3.393 m/s²",
               velocity: "11,340 km/h",
-              home_planet: "Uranus"
+              home_planet: "Uranus",
+              image: `https://imgur.com/undefined`
             },
 
             {
@@ -232,7 +250,8 @@ const main = async () => {
               surface_temperature: "-235°C",
               gravity: "0.006 m/s²",
               velocity: "2,271.6 km/h",
-              home_planet: "Neptune"
+              home_planet: "Neptune",
+              image: `https://imgur.com/T1vYbxa`
             },
 
             {
@@ -244,7 +263,8 @@ const main = async () => {
               surface_temperature: "-235°C",
               gravity: "0.0123 m/s²",
               velocity: "1,987.2 km/h",
-              home_planet: "Neptune"
+              home_planet: "Neptune",
+              image: `https://imgur.com/WoLTgtA`
             },
 
             {
@@ -256,7 +276,8 @@ const main = async () => {
               surface_temperature: "-235°C",
               gravity: "0.003 m/s²",
               velocity: "1,335.6 km/h",
-              home_planet: "Neptune"
+              home_planet: "Neptune",
+              image: `https://imgur.com/UI5D4zD`
             },
 
             {
@@ -268,7 +289,8 @@ const main = async () => {
               surface_temperature: "-235°C",
               gravity: "0.014 m/s²",
               velocity: "1,866.50 km/h",
-              home_planet: "Neptune"
+              home_planet: "Neptune",
+              image: `https://imgur.com/dAsTQCF`
             },
 
             {
@@ -280,7 +302,8 @@ const main = async () => {
               surface_temperature: "-235°C",
               gravity: "0.012 m/s²",
               velocity: "1,208.80 km/h",
-              home_planet: "Neptune"
+              home_planet: "Neptune",
+              image: `https://imgur.com/undefined`
             },
 
             {
@@ -292,7 +315,8 @@ const main = async () => {
               surface_temperature: "-226°C",
               gravity: "2.726 m/s²",
               velocity: "756 km/h",
-              home_planet: "Pluto"
+              home_planet: "Pluto",
+              image: `https://imgur.com/undefined`
             },
 
             {
@@ -304,7 +328,8 @@ const main = async () => {
               surface_temperature: "-226°C to -240°C",
               gravity: "Unknown",
               velocity: "Unknown",
-              home_planet: "Pluto"
+              home_planet: "Pluto",
+              image: `https://imgur.com/uTUoo1p`
             },
 
             {
@@ -316,7 +341,8 @@ const main = async () => {
               surface_temperature: "-226°C to -240°C",
               gravity: "0.0016 m/s²",
               velocity: "514 km/h",
-              home_planet: "Pluto"
+              home_planet: "Pluto",
+              image: `https://imgur.com/TCqXEne`
             },
 
             {
@@ -328,7 +354,8 @@ const main = async () => {
               surface_temperature: "-226°C to -240°C",
               gravity: "Uknown",
               velocity: "396 km/h",
-              home_planet: "Pluto"
+              home_planet: "Pluto",
+              image: `https://imgur.com/6eliT3O`
             },
 
             {
@@ -340,7 +367,8 @@ const main = async () => {
               surface_temperature: "-250°C",
               gravity: "0.051 m/s²",
               velocity: "443.7 km/h",
-              home_planet: "Pluto"
+              home_planet: "Pluto",
+              image: `https://imgur.com/undefined`
             }
           
           
