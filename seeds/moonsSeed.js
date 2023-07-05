@@ -8,7 +8,7 @@ const main = async () => {
     const moons = [
         
              {
-              name: "The Moon",
+              name: "Moon",
               mass: "73.46 x 10²¹ kg",
               diameter: "3,474 km",
               dist_from_planet: "383,025 km",
