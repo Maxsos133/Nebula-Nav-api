@@ -11,6 +11,7 @@ const bodySchema = new Schema(
         surface_temperature: { type: String, required: true},
         gravity: { type: String, required: true},
         velocity: { type: String, required: true},
+        image: { type: String, required: true},
         mapData: { type: Object, required: false}
     },
     {timestamps: true}

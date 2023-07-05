@@ -11,6 +11,7 @@ const moonSchema = new Schema (
         gravity: { type: String, required: true},
         velocity: { type: String, required: true},
         home_planet: {type: String, required: true },
+        image: { type: String, required: true},
     },
     { timestamps: true }
 )

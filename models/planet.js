@@ -13,7 +13,8 @@ const planetSchema = new Schema(
     gravity: { type: String, required: true},
     velocity: { type: String, required: true},
     moons: { type: Array, required: false},
-    mapData: { type: Object, required: false}
+    mapData: { type: Object, required: false},
+    image: { type: String, required: true},
   },
   { timestamps: true }
 )
