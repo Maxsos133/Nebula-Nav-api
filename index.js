@@ -18,7 +18,7 @@ require(`./db/index`)
 const app = express()
 
 const corsOptions = {
-  origin: 'https://localhost:5173',
+  origin: 'http://localhost:5173',
   methods: 'GET,PUT,POST,DELETE', 
   allowedHeaders: 'Content-Type,Authorization',
 }
