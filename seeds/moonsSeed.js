@@ -17,7 +17,7 @@ const main = async () => {
               gravity: "1.569 m/s² ",
               velocity: "3,960 km/h",
               home_planet: "Earth",
-              image: `https://imgur.com/EEiAKvx`
+              image: `https://imgur.com/EEiAKvx.png`
             },
 
             {
@@ -30,7 +30,7 @@ const main = async () => {
               gravity: ".0057 m/s²",
               velocity: "7,668 km/h",
               home_planet: "Mars",
-              image: `https://imgur.com/OWsZX9m`
+              image: `https://imgur.com/OWsZX9m.png`
             },
 
             {
@@ -43,7 +43,7 @@ const main = async () => {
               gravity: "0.003 m/s²",
               velocity: " 4,860 km/h",
               home_planet: "Mars",
-              image: `https://imgur.com/CsRGZwA`
+              image: `https://imgur.com/CsRGZwA.png`
             },
 
             {
@@ -56,7 +56,7 @@ const main = async () => {
               gravity: "1.314 m/s²",
               velocity: "49,464 km/h",
               home_planet: "Jupiter",
-              image: `https://imgur.com/YmA9Xse`
+              image: `https://imgur.com/YmA9Xse.png`
             },
 
             {
@@ -69,7 +69,7 @@ const main = async () => {
               gravity: "1.431 m/s²",
               velocity: "39,168 km/h",
               home_planet: "Jupiter",
-              image: `https://imgur.com/bL5PlE6`
+              image: `https://imgur.com/bL5PlE6.png`
             },
 
             {
@@ -82,7 +82,7 @@ const main = async () => {
               gravity: "1.235 m/s²",
               velocity: "29,520 km/h",
               home_planet: "Jupiter",
-              image: `https://imgur.com/6FcrADk`
+              image: `https://imgur.com/6FcrADk.png`
             },
 
             {
@@ -95,7 +95,7 @@ const main = async () => {
               gravity: "1.353 m/s²",
               velocity: "20,052 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/9r8uePM`
+              image: `https://imgur.com/9r8uePM.png`
             },
 
             {
@@ -108,7 +108,7 @@ const main = async () => {
               gravity: "2.255 m/s²",
               velocity: "30,528 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/qg7OW3b`
+              image: `https://imgur.com/qg7OW3b.png`
             },
 
             {
@@ -121,7 +121,7 @@ const main = async () => {
               gravity: "1.421 m/s²",
               velocity: "40,860 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/4b1SvGV`
+              image: `https://imgur.com/4b1SvGV.png`
             },
 
             {
@@ -134,7 +134,7 @@ const main = async () => {
               gravity: "2.275 m/s²",
               velocity: "36,108 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/pcoV34K`
+              image: `https://imgur.com/pcoV34K.png`
             },
 
             {
@@ -147,7 +147,7 @@ const main = async () => {
               gravity: "1.108  m/s²",
               velocity: "45,360 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/9WtWZtb`
+              image: `https://imgur.com/9WtWZtb.png`
             },
 
             {
@@ -160,7 +160,7 @@ const main = async () => {
               gravity: "2.186  m/s²",
               velocity: "11,736 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/I0tnnRU`
+              image: `https://imgur.com/I0tnnRU.png`
             },
 
             {
@@ -173,7 +173,7 @@ const main = async () => {
               gravity: "0.617 m/s²",
               velocity: "51,408 km/h",
               home_planet: "Saturn",
-              image: `https://imgur.com/KXElt5X`
+              image: `https://imgur.com/KXElt5X.png`
             },
 
             {
@@ -186,7 +186,7 @@ const main = async () => {
               gravity: "0.774 m/s²",
               velocity: "24,156 km/h",
               home_planet: "Uranus",
-              image: `https://imgur.com/KrTso26`
+              image: `https://imgur.com/KrTso26.png`
             },
 
             {
@@ -199,7 +199,7 @@ const main = async () => {
               gravity: "2.618 m/s²",
               velocity: "19,836 km/h",
               home_planet: "Uranus",
-              image: `https://imgur.com/8oewyt7`
+              image: `https://imgur.com/8oewyt7.png`
             },
 
             {
@@ -212,7 +212,7 @@ const main = async () => {
               gravity: "2.314 m/s²",
               velocity: "16,812 km/h",
               home_planet: "Uranus",
-              image: `https://imgur.com/TXd2HO9`
+              image: `https://imgur.com/TXd2HO9.png`
             },
 
             {
@@ -225,7 +225,7 @@ const main = async () => {
               gravity: "3.716 m/s²",
               velocity: "13,104 km/h",
               home_planet: "Uranus",
-              image: `https://imgur.com/undefined`
+              image: `https://imgur.com/QLh2ZKk.png`
             },
 
             {
@@ -238,7 +238,7 @@ const main = async () => {
               gravity: "3.393 m/s²",
               velocity: "11,340 km/h",
               home_planet: "Uranus",
-              image: `https://imgur.com/undefined`
+              image: `https://imgur.com/udkjOCQ.png`
             },
 
             {
@@ -251,7 +251,7 @@ const main = async () => {
               gravity: "0.006 m/s²",
               velocity: "2,271.6 km/h",
               home_planet: "Neptune",
-              image: `https://imgur.com/T1vYbxa`
+              image: `https://imgur.com/T1vYbxa.png`
             },
 
             {
@@ -264,7 +264,7 @@ const main = async () => {
               gravity: "0.0123 m/s²",
               velocity: "1,987.2 km/h",
               home_planet: "Neptune",
-              image: `https://imgur.com/WoLTgtA`
+              image: `https://imgur.com/WoLTgtA.png`
             },
 
             {
@@ -277,7 +277,7 @@ const main = async () => {
               gravity: "0.003 m/s²",
               velocity: "1,335.6 km/h",
               home_planet: "Neptune",
-              image: `https://imgur.com/UI5D4zD`
+              image: `https://imgur.com/UI5D4zD.png`
             },
 
             {
@@ -290,7 +290,7 @@ const main = async () => {
               gravity: "0.014 m/s²",
               velocity: "1,866.50 km/h",
               home_planet: "Neptune",
-              image: `https://imgur.com/dAsTQCF`
+              image: `https://imgur.com/dAsTQCF.png`
             },
 
             {
@@ -303,7 +303,7 @@ const main = async () => {
               gravity: "0.012 m/s²",
               velocity: "1,208.80 km/h",
               home_planet: "Neptune",
-              image: `https://imgur.com/undefined`
+              image: `https://imgur.com/fSAkK4J.png`
             },
 
             {
@@ -316,7 +316,7 @@ const main = async () => {
               gravity: "2.726 m/s²",
               velocity: "756 km/h",
               home_planet: "Pluto",
-              image: `https://imgur.com/undefined`
+              image: `https://imgur.com/7XVNXd0.png`
             },
 
             {
@@ -329,7 +329,7 @@ const main = async () => {
               gravity: "Unknown",
               velocity: "Unknown",
               home_planet: "Pluto",
-              image: `https://imgur.com/uTUoo1p`
+              image: `https://imgur.com/uTUoo1p.png`
             },
 
             {
@@ -342,7 +342,7 @@ const main = async () => {
               gravity: "0.0016 m/s²",
               velocity: "514 km/h",
               home_planet: "Pluto",
-              image: `https://imgur.com/TCqXEne`
+              image: `https://imgur.com/TCqXEne.png`
             },
 
             {
@@ -355,7 +355,7 @@ const main = async () => {
               gravity: "Uknown",
               velocity: "396 km/h",
               home_planet: "Pluto",
-              image: `https://imgur.com/6eliT3O`
+              image: `https://imgur.com/6eliT3O.png`
             },
 
             {
@@ -368,7 +368,7 @@ const main = async () => {
               gravity: "0.051 m/s²",
               velocity: "443.7 km/h",
               home_planet: "Pluto",
-              image: `https://imgur.com/undefined`
+              image: `https://imgur.com/1eKiQcq.png`
             }
           
           

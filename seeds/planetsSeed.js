@@ -24,7 +24,7 @@ const main = async () => {
           latitude: `10`,
         },
       },
-      image: `https://imgur.com/P97FlHH`
+      image: `https://imgur.com/P97FlHH.png`
     },
     {
       name: `Venus`,
@@ -45,7 +45,7 @@ const main = async () => {
           latitude: `20`,
         },
       },
-      image: `https://imgur.com/hzDsLUv`
+      image: `https://imgur.com/hzDsLUv.png`
     },
     {
       name: `Earth`,
@@ -66,7 +66,7 @@ const main = async () => {
           latitude: `30`,
         },
       },
-      image: `https://imgur.com/dE4LYTf`
+      image: `https://imgur.com/dE4LYTf.png`
     },
     {
       name: `Mars`,
@@ -87,7 +87,7 @@ const main = async () => {
           latitude: `40`,
         },
       },
-      image: `https://imgur.com/3wk8LE1`
+      image: `https://imgur.com/3wk8LE1.png`
     },
     {
       name: `Jupiter`,
@@ -108,7 +108,7 @@ const main = async () => {
           latitude: `50`,
         },
       },
-      image: `https://imgur.com/7G6nHmS`
+      image: `https://imgur.com/7G6nHmS.png`
     },
     {
       name: `Saturn`,
@@ -137,7 +137,7 @@ const main = async () => {
           latitude: `60`,
         },
       },
-      image: `https://imgur.com/ExN5wvX`
+      image: `https://imgur.com/I3ZQ6jV.png`
     },
     {
       name: `Uranus`,
@@ -158,7 +158,7 @@ const main = async () => {
           latitude: `70`,
         },
       },
-      image: `https://imgur.com/nf4LWM8`
+      image: `https://imgur.com/nf4LWM8.png`
     },
     {
       name: `Neptune`,
@@ -179,7 +179,7 @@ const main = async () => {
           latitude: `80`,
         },
       },
-      image: `https://imgur.com/I0js1li`
+      image: `https://imgur.com/I0js1li.png`
     },
     {
       name: `Pluto`,
@@ -200,7 +200,7 @@ const main = async () => {
           latitude: `90`,
         },
       },
-      image: `https://imgur.com/QPCS4HD`
+      image: `https://imgur.com/QPCS4HD.png`
     },
   ];
   await Planet.insertMany(planets);
