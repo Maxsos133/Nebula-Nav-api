@@ -22,7 +22,7 @@ const main = async () => {
                 latitude: `0`,
               },
             },
-            image: `https://imgur.com/8zyuGZw`
+            image: `https://imgur.com/8zyuGZw.png`
           },
     ]
 

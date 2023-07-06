@@ -20,7 +20,24 @@ const getCommentsById = async (req, res) => {
     }
 }
 
+const createComment = async (req, res) => {
+    try {
+        const { sender, content, object } = req.body
+        const comment = new Comment({
+            sender,
+            content,
+            object
+        })
+        await comment.save()
+        res.status(201).json(comment)
+    } catch (error) {
+        console.log(error)
+        res.status(500).json({error: 'failed to create comment'})
+    }
+}
+
 module.exports = {
     getComments,
-    getCommentsById
+    getCommentsById,
+    createComment
 }
