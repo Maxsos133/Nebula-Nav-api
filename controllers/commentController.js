@@ -36,8 +36,26 @@ const createComment = async (req, res) => {
     }
 }
 
+const deleteComment = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const comment = await Comment.findById(id)
+  
+      if (!comment) {
+        throw Error('comment not found')
+      }
+  
+      await comment.remove();
+      res.json({ message: 'comment deleted successfully' })
+    } catch (error) {
+      console.log(error);
+      res.status(500).json({ error: 'failed to delete comment' })
+    }
+  }
+
 module.exports = {
     getComments,
     getCommentsById,
-    createComment
+    createComment,
+    deleteComment
 }
