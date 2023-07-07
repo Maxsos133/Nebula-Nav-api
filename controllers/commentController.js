@@ -45,7 +45,7 @@ const deleteComment = async (req, res) => {
         throw Error('comment not found')
       }
   
-      await comment.remove();
+      await comment.deleteOne();
       res.json({ message: 'comment deleted successfully' })
     } catch (error) {
       console.log(error);
