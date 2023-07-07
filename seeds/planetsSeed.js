@@ -55,7 +55,7 @@ const main = async () => {
       terrain: `Mountains, hills, plateaus, plains and oceans`,
       surface: `minerals, rocks, soil and water`,
       surface_temperature: `-25°C to 45°C`,
-      has_water: `no`,
+      has_water: `yes`,
       has_aliens: `possibly`,
       gravity: `8.87 m/s²`,
       velocity: `126,077 km/h`,
