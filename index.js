@@ -18,7 +18,7 @@ require(`./db/index`)
 const app = express()
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://nebula-nav.vercel.app',
   methods: 'GET,PUT,POST,DELETE', 
   allowedHeaders: 'Content-Type,Authorization',
 }
